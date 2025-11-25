@@ -156,9 +156,10 @@ footer {
 }
 
 .participants ul {
-  list-style: disc;
-  margin-left: 22px;
+  list-style: none;
+  margin-left: 0;
   margin-top: 6px;
+  padding-left: 0;
 }
 
 .participant-item {
@@ -188,6 +189,20 @@ footer {
   color: #37474f;
   font-size: 13px;
   word-break: break-word;
+}
+
+.delete-participant {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px;
+  border-radius: 4px;
+}
+.delete-participant:hover {
+  background: rgba(198,40,40,0.06);
 }
 
 .no-participants {
